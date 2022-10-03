@@ -21,6 +21,9 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 10px;
+    z-index: 10000;
 }
 header nav{
     min-width: 300px;
@@ -38,6 +41,9 @@ header nav a{
 }
 .active{
     border-bottom: #000 solid 2px;
+}
+.active-white{
+    border-bottom: #fff solid 2px;
 }
 .box-social-media{
     position: fixed;
