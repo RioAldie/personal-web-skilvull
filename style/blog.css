@@ -1,0 +1,119 @@
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+    --playfair: 'Playfair Display', serif;
+}
+section.blog{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+article{
+    width: 800px;
+    border-top: #bfbfbf 1px solid;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+article .blog-title{
+    font-size: 38px;
+    font-weight: 500px;
+    line-height: 34px;
+    font-family: var(--roboto);
+    color: #000;
+}
+article .blog-author{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+article .blog-author img{
+    width: 40px;
+    height: 40px;
+}
+article .blog-author .author-name{
+    width: 150px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #000;
+}
+article .blog-author .date-upload{
+    font-size: 16px;
+    width: 150px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #bfbfbf;
+}
+article .content{
+    font-family: var(--roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    margin-top: 50px;
+    line-break: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    width: 100%;
+}
+.box-navblog{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.box-navblog .share{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 22px;
+    color: #c4c4c4;
+    font-family: var(--roboto);
+    font-weight: 400px;
+    cursor: pointer;
+}
+.box-navblog .share:hover{
+    border: 2px solid #c4c4c4;
+}
+.box-navblog .share img{
+    width: 20px;
+    height: 20px;
+}
+.box-navblog .next-btn{
+   min-width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 22px;
+    color: #000;
+    font-family: var(--roboto);
+    font-weight: 400px;
+    cursor: pointer;
+}
+.sticky-white{
+    background: #fff;
+}
