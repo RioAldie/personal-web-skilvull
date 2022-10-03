@@ -135,6 +135,11 @@ section.tool .tool-container{
     justify-content: space-between;
     margin-top: 50px;
     margin-left: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+.tool-container .tool-box:hover .tool-name{
+    color: #FF6C6C;
 }
 .tool-container .tool-box img{
     width: 40px;
@@ -149,6 +154,7 @@ section.tool .tool-container{
     font-size: 16px;
     line-height: 26px;
     font-family: var(--roboto);
+    transition: 1s;
 }
 a.a-next{
     position: absolute;

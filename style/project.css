@@ -65,6 +65,9 @@ section.project .card-project .project-img img{
     justify-content: flex-start;
     
 }
+.card-project .project-detail .project-navs a{
+    color: #c4c4c4;
+}
 .project-detail .project-navs .nav{
     width: 150px;
     height: 30px;
